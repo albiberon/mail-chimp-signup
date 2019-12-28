@@ -36,10 +36,10 @@ app.post("/", function(req, res) {
   var jsonData = JSON.stringify(data);
 
   var options = {
-    url: `https://us6.api.mailchimp.com/3.0/lists/44831e4558`,
+    url: `https://us6.api.mailchimp.com/3.0/lists/1111111111`,
     method: "POST",
     headers: {
-      "Authorization": "anystring 02ef6ec658b29af76441f5bd81691660-us6"
+      "Authorization": "anystring 1111111111111111111"
     },
     body: jsonData
   };
